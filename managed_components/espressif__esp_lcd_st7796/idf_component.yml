@@ -1,0 +1,16 @@
+dependencies:
+  cmake_utilities: 0.*
+  idf: '>=5.2'
+description: ESP LCD ST7796 driver (SPI && I80 && MIPI DSI)
+repository: git://github.com/espressif/esp-bsp.git
+repository_info:
+  commit_sha: c6ba1648c17c8c7faadbfed657b9d50f88474bc6
+  path: components/lcd/esp_lcd_st7796
+targets:
+- esp32
+- esp32s2
+- esp32s3
+- esp32p4
+- esp32c3
+url: https://github.com/espressif/esp-bsp/tree/master/components/lcd/esp_lcd_st7796
+version: 1.5.0
